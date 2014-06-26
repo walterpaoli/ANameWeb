@@ -14,7 +14,7 @@
 			<ul>
 				<c:forEach var="bus" items="${busesList}">
 					<li>
-						<p>${bus.id}</p>
+						<p>${bus.ID}</p>
 						<p>${bus.name}</p>
 						<p>${bus.lineNumber}</p>
 					</li>
